@@ -1,0 +1,9 @@
+opam-version: "2.0"
+name: "z3 oom repro"
+version: "0.1"
+maintainer: "Nicola Mometto <nicola@imandra.ai>"
+author: "Nicola Mometto <nicola@imandra.ai>"
+build: [["dune" "build" "-p" name "-j" jobs]]
+depends: [
+  "z3"
+]

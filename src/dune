@@ -1,0 +1,6 @@
+(executable
+ (name repro)
+ (public_name repro)
+ (modules repro)
+ (modes exe)
+ (libraries z3))
