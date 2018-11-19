@@ -2,10 +2,13 @@
 ```
 opam switch create . ocaml-base-compiler.4.06.1
 opam install dune z3
+export LD_LIBRARY_PATH=_opam/lib/z3/
 make
 ```
 
 # Repro
+
+the memory thresholds might be different depending on machine
 
 with 400mb max-memory:
 
